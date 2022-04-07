@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Calculator app</title>
+</head>
+<body>
+
+  <div class="calculatorBody">
+
+    <div class="calculatorThemeSwitcherArea">
+      <span class="calcTitle">calc</span>
+
+      <div class="themeSwitcher">
+        <span class="themeText">THEME</span>
+
+        <div class="themeSwitcherBarAndProfiles">
+          <div class="themeSwitcherProfiles">
+            <span class="themeProfileNumber themeProfileNumberOne">1</span>
+            <span class="themeProfileNumber themeProfileNumberTwo">2</span>
+            <span class="themeProfileNumber themeProfileNumberThree">3</span>
+          </div>
+
+          <div class="themeSwitcherBar">
+            <div class="firstTheme themeProfile selectedTheme"></div>
+            <div class="secondTheme themeProfile"></div>
+            <div class="thirdTheme themeProfile"></div>
+          </div> 
+        </div>
+      </div>
+
+    </div>
+
+    <div class="calculatorDisplay">
+      <input type="text" class="calculatorDisplayInput" readonly="true">
+    </div>
+
+    <div class="calculatorButtonsArea">
+      <div class="calculatorButtonsRow buttonsRow1">
+        <div class="calculatorButton calculatorButton7">7</div>
+        <div class="calculatorButton calculatorButton8">8</div>
+        <div class="calculatorButton calculatorButton9">9</div>
+        <div class="calculatorButton calculatorButtonDel">DEL</div>
+      </div>
+
+      <div class="calculatorButtonsRow buttonsRow2">
+        <div class="calculatorButton calculatorButton4">4</div>
+        <div class="calculatorButton calculatorButton5">5</div>
+        <div class="calculatorButton calculatorButton6">6</div>
+        <div class="calculatorButton calculatorButton+">+</div>
+      </div>
+
+      <div class="calculatorButtonsRow buttonsRow3">
+        <div class="calculatorButton calculatorButton1">1</div>
+        <div class="calculatorButton calculatorButton2">2</div>
+        <div class="calculatorButton calculatorButton3">3</div>
+        <div class="calculatorButton calculatorButton-">-</div>
+      </div>
+
+      <div class="calculatorButtonsRow buttonsRow4">
+        <div class="calculatorButton calculatorButton4">.</div>
+        <div class="calculatorButton calculatorButton5">0</div>
+        <div class="calculatorButton calculatorButton6">/</div>
+        <div class="calculatorButton calculatorButton+">x</div>
+      </div>
+
+      <div class="calculatorButtonsRow buttonsRow5">
+        <div class="calculatorButtonSpecialActions calculatorButtonReset">RESET</div>
+        <div class="calculatorButtonSpecialActions calculatorButtonEqual">=</div>
+      </div>
+    </div>
+
+  </div>
+  
+  <footer>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Ricardo Kanashiro</a>.
+  </footer>
+
+  <script src="./js/app.js" type="module"></script>
+
+</body>
+</html>
